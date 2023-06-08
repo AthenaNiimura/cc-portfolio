@@ -1,0 +1,26 @@
+{
+  "name": "cc-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio de un Creador de contenido",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path scss scss/style.scss css/style.css",
+    "dev": "nodemon -e scss -x \"npm run build\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AthenaNiimura/cc-portfolio.git"
+  },
+  "author": "Athena Niimura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AthenaNiimura/cc-portfolio/issues"
+  },
+  "homepage": "https://github.com/AthenaNiimura/cc-portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
